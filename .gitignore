@@ -1,0 +1,9 @@
+*.settings
+*.classpath
+*.destination.properties
+*.project
+*build/
+*src/
+
+*WebContent/META-INF
+*WebContent/WEB-INF
