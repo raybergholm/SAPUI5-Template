@@ -1,0 +1,14 @@
+{
+    "People" : [
+        {
+            "Id" : "0",
+            "Name" : "John",
+            "Value" : "Smith"
+        },
+        {
+            "Id" : "1",
+            "Name" : "Bob",
+            "Value" : "Bobsson"
+        }
+    ]
+}

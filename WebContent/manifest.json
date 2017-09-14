@@ -1,0 +1,39 @@
+{
+    "_version": "0.1.0",
+    "sap.ui5": {
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "localization/texts.properties"
+            },
+            "": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": ""
+            }
+        },
+        "resources": {
+            "js": []
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "com.tasky.view",
+                "controlId": "Root-app",
+                "controlAggregation": "detailPages"
+            },
+            "routes": [{
+                    "pattern": "",
+                    "name": "default",
+                    "target": "InitialDetail"
+                }
+            ],
+            "targets": {
+                "InitialDetail": {
+                    "viewName": "InitialDetail",
+                    "transition": "show"
+                }
+            }
+        }
+    }
+}

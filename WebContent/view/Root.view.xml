@@ -1,0 +1,23 @@
+<core:View
+	controllerName="com.template.controller.Root"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<App id="app"
+		initialPage="EmptyView">
+		<pages>
+			<mvc:XMLView id="EmptyView" viewName="com.template.view.EmptyView" />
+		</pages>
+	</App>
+
+	<!-- <SplitApp id="app"
+		initialMaster="InitialMaster"
+		initialDetail="InitialDetail">
+		<masterPages>
+			<mvc:XMLView id="InitialMaster" viewName="com.template.view.EmptyView" />
+		</masterPages>
+		<detailPages>
+			<mvc:XMLView id="InitialDetail" viewName="com.template.view.EmptyView" />
+		</detailPages>
+	</SplitApp> -->
+</core:View>
